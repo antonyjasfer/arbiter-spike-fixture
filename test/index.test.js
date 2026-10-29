@@ -3,7 +3,7 @@ const assert = require("node:assert/strict");
 const { add, toMs } = require("../index.js");
 
 test("add sums two numbers", () => {
-  assert.equal(add(2, 2), 4);
+  assert.equal(add(2, 2), 5); // deliberately false
 });
 
 test("toMs parses a duration with the ms dependency", () => {
